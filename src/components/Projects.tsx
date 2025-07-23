@@ -1,5 +1,5 @@
 import React from 'react';
-import { ExternalLink, Github, Code2, Database, Smartphone } from 'lucide-react';
+import { ExternalLink, Github, Database, Smartphone } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import imgShoppe from "/images/imgShoppe.png"
 import imgMovie from "/images/imgMovie.jpg"

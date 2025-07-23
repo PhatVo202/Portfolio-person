@@ -96,7 +96,12 @@ const Skills: React.FC = () => {
                                                     onError={(e) => {
                                                         // Fallback if image fails to load
                                                         e.currentTarget.style.display = 'none';
-                                                        e.currentTarget.nextElementSibling!.style.display = 'flex';
+                                                        const fallbackDiv = e.currentTarget.nextElementSibling as HTMLElement | null;
+                                                        if (fallbackDiv) {
+                                                            fallbackDiv.style.display = 'block'; // Use 'block' for centering
+                                                            fallbackDiv.style.alignItems = 'center';
+                                                            fallbackDiv.style.justifyContent = 'center';
+                                                        }
                                                     }}
                                                 />
                                                 <div
