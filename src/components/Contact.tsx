@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Mail, Phone, MapPin, Send, Github, Linkedin, Twitter } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, Github, Facebook } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 
 const Contact: React.FC = () => {
@@ -28,8 +28,8 @@ const Contact: React.FC = () => {
         {
             icon: Mail,
             label: 'Email',
-            value: 'contact@developer.com',
-            href: 'mailto:contact@developer.com'
+            value: '9a10voletruongphat@gmail.com',
+            href: 'mailto:9a10voletruongphat@gmail.com'
         },
         {
             icon: Phone,
@@ -40,15 +40,14 @@ const Contact: React.FC = () => {
         {
             icon: MapPin,
             label: 'Location',
-            value: 'New York, NY',
+            value: 'District 10, Ho Chi Minh City',
             href: '#'
         }
     ];
 
     const socialLinks = [
-        { icon: Github, href: '#', label: 'GitHub' },
-        { icon: Linkedin, href: '#', label: 'LinkedIn' },
-        { icon: Twitter, href: '#', label: 'Twitter' }
+        { icon: Github, href: 'https://github.com/PhatVo202', label: 'GitHub' },
+        { icon: Facebook, href: 'https://www.facebook.com/phatkun1103/', label: 'Facebook' },
     ];
 
     return (

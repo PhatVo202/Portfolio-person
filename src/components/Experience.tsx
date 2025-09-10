@@ -7,43 +7,18 @@ const Experience: React.FC = () => {
 
     const experiences = [
         {
-            title: 'Senior Full-Stack Developer',
-            company: 'Tech Innovation Corp',
-            location: 'Remote',
-            period: '2023 - Present',
-            description: 'Leading full-stack development projects using React.js, NestJS, and MySQL. Mentoring junior developers and implementing best practices for code quality and performance.',
+            title: 'Frontend Developer Intern',
+            company: 'CyberSoft Company',
+            location: 'District 3, Ho Chi Minh City',
+            period: '05/2025 - 08/2025',
+            description: 'Contributed to the maintenance and performance optimization of the intern timesheet management web application, serving 100+ internal users.',
             achievements: [
-                'Increased application performance by 40%',
-                'Led a team of 5 developers',
-                'Implemented CI/CD pipeline'
+                'Maintained and refactored legacy React components, improving code readability and reducing bug resolution time by 25%.',
+                'Researched and implemented modern image formats (.webp, .avif) and lazy loading techniques, resulting in a 40% reduction in image load times and improved Core Web Vitals scores.',
+                'Collaborated with senior developers to identify and fix performance bottlenecks within the application.',
+                'Documented code improvements and optimization strategies for knowledge sharing within the team.'
             ],
-            technologies: ['React.js', 'NestJS', 'MySQL', 'Docker', 'AWS']
-        },
-        {
-            title: 'Full-Stack Developer',
-            company: 'Digital Solutions Ltd',
-            location: 'New York, NY',
-            period: '2022 - 2023',
-            description: 'Developed and maintained multiple web applications using modern technologies. Collaborated with cross-functional teams to deliver high-quality software solutions.',
-            achievements: [
-                'Built 10+ production applications',
-                'Reduced bug reports by 60%',
-                'Implemented automated testing'
-            ],
-            technologies: ['React.js', 'Node.js', 'Express.js', 'PostgreSQL']
-        },
-        {
-            title: 'Frontend Developer',
-            company: 'Creative Web Agency',
-            location: 'San Francisco, CA',
-            period: '2021 - 2022',
-            description: 'Focused on creating responsive and interactive user interfaces. Worked closely with designers to implement pixel-perfect designs and smooth user experiences.',
-            achievements: [
-                'Improved user engagement by 35%',
-                'Optimized loading times by 50%',
-                'Created reusable component library'
-            ],
-            technologies: ['React.js', 'TypeScript', 'Tailwind CSS', 'Redux']
+            technologies: ['React.js', 'TypeScript', 'Redux']
         }
     ];
 

@@ -46,42 +46,42 @@ const Projects: React.FC = () => {
                 github: 'https://github.com/PhatVo202/Jira_project'
             }
         },
-        {
-            title: 'Pinterest Clone Backend – RESTful API',
-            description: 'A RESTful API for an image-sharing platform inspired by Pinterest. It supports user authentication, image upload, post management, and commenting features.',
-            image: imgPrinterest,
-            technologies: ['NodeJS', 'ExpressJS', 'Mysql', 'Prisma', 'Cloudinary', "JWT"],
-            category: 'Backend',
-            icon: Database,
-            links: {
-                demo: '#',
-                github: 'https://github.com/PhatVo202/BE_Express_ORM'
-            }
-        },
-        {
-            title: 'Inventory Management System',
-            description: 'Complete inventory management solution with barcode scanning, stock tracking, and automated reporting features.',
-            image: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800',
-            technologies: ['NestJS', 'PostgreSQL', 'React.js', 'TypeScript'],
-            category: 'Full-Stack',
-            icon: Database,
-            links: {
-                demo: '#',
-                github: '#'
-            }
-        },
-        {
-            title: 'Weather Forecast App',
-            description: 'Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
-            image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
-            technologies: ['React.js', 'API Integration', 'Tailwind CSS', 'Charts'],
-            category: 'Frontend',
-            icon: Smartphone,
-            links: {
-                demo: '#',
-                github: '#'
-            }
-        }
+        // {
+        //     title: 'Pinterest Clone Backend – RESTful API',
+        //     description: 'A RESTful API for an image-sharing platform inspired by Pinterest. It supports user authentication, image upload, post management, and commenting features.',
+        //     image: imgPrinterest,
+        //     technologies: ['NodeJS', 'ExpressJS', 'Mysql', 'Prisma', 'Cloudinary', "JWT"],
+        //     category: 'Backend',
+        //     icon: Database,
+        //     links: {
+        //         demo: '#',
+        //         github: 'https://github.com/PhatVo202/BE_Express_ORM'
+        //     }
+        // },
+        // {
+        //     title: 'Inventory Management System',
+        //     description: 'Complete inventory management solution with barcode scanning, stock tracking, and automated reporting features.',
+        //     image: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800',
+        //     technologies: ['NestJS', 'PostgreSQL', 'React.js', 'TypeScript'],
+        //     category: 'Full-Stack',
+        //     icon: Database,
+        //     links: {
+        //         demo: '#',
+        //         github: '#'
+        //     }
+        // },
+        // {
+        //     title: 'Weather Forecast App',
+        //     description: 'Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
+        //     image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800',
+        //     technologies: ['React.js', 'API Integration', 'Tailwind CSS', 'Charts'],
+        //     category: 'Frontend',
+        //     icon: Smartphone,
+        //     links: {
+        //         demo: '#',
+        //         github: '#'
+        //     }
+        // }
     ];
 
     return (

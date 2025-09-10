@@ -7,8 +7,8 @@ const Hero: React.FC = () => {
     const { ref, isVisible } = useScrollAnimation();
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '../../public/CV_VoLeTruongPhat_FrontEnd.pdf'; // file đặt trong thư mục public
-        link.download = 'CV_VoLeTruongPhat_FrontEnd.pdf';
+        link.href = '../../public/Cv_VoLeTruongPhat_FrontEnd.pdf'; // file đặt trong thư mục public
+        link.download = 'Cv_VoLeTruongPhat_FrontEnd.pdf';
         link.click();
     };
 
@@ -22,17 +22,16 @@ const Hero: React.FC = () => {
                 <div className="container mx-auto px-6 text-center relative z-10">
                     <div className={`transition-all duration-1000 ${isVisible ? 'animate-fadeInUp' : 'opacity-0 translate-y-20'}`}>
                         <div className='flex justify-center items-center'><img className="object-cover object-center rounded-full h-60 w-60"
-                            src="https://images.unsplash.com/photo-1682407186023-12c70a4a35e0?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=2832&amp;q=80"
+                            src="./public/images/me.jpg"
                             alt="nature image" /></div>
 
-                        <h2 >
-                            <span className="text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 mb-6 animate-glow">I'm a{' '}</span>
+                        <h2 className='my-5'>
+                            <span className="text-4xl my-5 md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400 mb-6 animate-glow">I'm a{' '}</span>
 
                             <TypeAnimation
                                 sequence={[
-                                    'Fullstack Developer', 3000,
                                     'Frontend Developer', 3000,
-                                    'Backend Developer', 3000,
+                                    'Web Developer', 3000,
                                 ]}
                                 wrapper="span"
                                 cursor={true}
@@ -42,7 +41,7 @@ const Hero: React.FC = () => {
                         </h2>
 
                         <p className="text-xl md:text-2xl text-gray-300 dark:text-gray-600 mb-8 max-w-3xl mx-auto animate-slideInUp">
-                            Crafting exceptional digital experiences with modern technologies like React.js, NestJS, Node.js, and MySQL
+                            Crafting exceptional digital experiences with modern technologies like React.js, NextJS, TailwindCss, and TanStack Query
                         </p>
 
                         <div className="flex flex-col sm:flex-row items-center justify-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">

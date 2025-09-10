@@ -9,7 +9,7 @@ const About: React.FC = () => {
         {
             icon: BookOpen,
             title: 'Fresh Graduate',
-            description: 'Recently graduated with strong foundation in computer science',
+            description: 'Recently graduated with strong foundation in software engineering',
             color: 'from-blue-400 to-blue-600'
         },
         {
@@ -33,9 +33,9 @@ const About: React.FC = () => {
     ];
 
     const personalStats = [
-        { label: 'Academic Projects', value: '15+', icon: Code2 },
+        { label: 'Academic Projects', value: '5+', icon: Code2 },
         { label: 'Technologies Learned', value: '10+', icon: Rocket },
-        { label: 'Months of Study', value: '48+', icon: BookOpen },
+        { label: 'Months of Study', value: '24+', icon: BookOpen },
         { label: 'Coding Hours', value: '1000+', icon: Target }
     ];
 
@@ -69,7 +69,7 @@ const About: React.FC = () => {
                                         <div className="relative z-10 text-center">
                                             <Code2 className="w-24 h-24 text-purple-400 mx-auto mb-4" />
                                             <div className="text-white dark:text-gray-900 font-bold text-lg">Fresh Graduate</div>
-                                            <div className="text-purple-300 text-sm">Full-Stack Developer</div>
+                                            <div className="text-purple-300 text-sm">Front-End Developer</div>
                                         </div>
                                     </div>
                                 </div>
@@ -88,19 +88,15 @@ const About: React.FC = () => {
                     <div className={`transition-all duration-1000 delay-500 ${isVisible ? 'animate-slideInRight' : 'opacity-0 translate-x-20'}`}>
                         <div className="space-y-6">
                             <h3 className="text-3xl font-bold text-white dark:text-gray-900 mb-6">
-                                Aspiring <span className="text-purple-400">Full-Stack Developer</span>
+                                Aspiring <span className="text-purple-400">Front-End Developer</span>
                             </h3>
 
                             <p className="text-gray-300 dark:text-gray-600 text-lg leading-relaxed">
-                                Hi! I'm a fresh graduate with a passion for creating amazing web applications.
-                                While I may be new to the professional world, I bring enthusiasm, dedication,
-                                and a strong foundation in modern web technologies.
+                                Hi, I'm a front-end developer who can code all day without getting tired.
                             </p>
 
                             <p className="text-gray-300 dark:text-gray-600 text-lg leading-relaxed">
-                                I specialize in React.js, Node.js, and MySQL, and I'm always excited to learn
-                                new technologies. My goal is to contribute to meaningful projects while
-                                continuously growing as a developer.
+                                I’m passionate about learning new technologies and creating valuable applications that help others in their work. I’m known as a team player who enjoys collaborating and supporting my colleagues. Over the past year, I’ve dedicated myself to mastering front-end web development, and I’m confident that my skills can meet your requirements.
                             </p>
 
                             {/* Personal highlights */}
