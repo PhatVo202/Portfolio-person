@@ -22,7 +22,7 @@ const Hero: React.FC = () => {
                 <div className="container mx-auto px-6 text-center relative z-10">
                     <div className={`transition-all duration-1000 ${isVisible ? 'animate-fadeInUp' : 'opacity-0 translate-y-20'}`}>
                         <div className='flex justify-center items-center'><img className="object-cover object-center rounded-full h-60 w-60"
-                            src="./public/images/me.jpg"
+                            src="/images/me.jpg"
                             alt="nature image" /></div>
 
                         <h2 className='my-5'>
