@@ -1,10 +1,10 @@
 import React from 'react';
-import { ExternalLink, Github, Database, Smartphone } from 'lucide-react';
+import { ExternalLink, Github, Smartphone } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import imgShoppe from "/images/imgShoppe.png"
 import imgMovie from "/images/imgMovie.jpg"
 import imgJira from "/images/imgJira.png"
-import imgPrinterest from "/images/imgPrinterest.jpg"
+
 
 const Projects: React.FC = () => {
     const { ref, isVisible } = useScrollAnimation();
